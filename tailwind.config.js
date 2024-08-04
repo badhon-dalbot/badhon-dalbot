@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "border-animation": "spin 3s linear infinite",
+      },
+    },
   },
   plugins: [],
 };

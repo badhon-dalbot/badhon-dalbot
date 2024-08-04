@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .box {
+    @apply before:absolute before:w-[60rem] before:h-[30rem] before:top-[-10%] before:left-[-15%] before:bg-[conic-gradient(transparent,transparent,#00a6ff)] before:animate-border-animation;
+  }
+}
